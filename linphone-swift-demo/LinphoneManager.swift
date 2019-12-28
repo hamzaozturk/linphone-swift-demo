@@ -110,9 +110,7 @@ class LinphoneManager: NSObject {
     
     func initialize() {
 
-        linphoneLoggingService = linphone_logging_service_get()
-        
-        linphone_logging_service_set_log_file(linphoneLoggingService, nil, nil, 0)
+        linphoneLoggingService = linphone_logging_service_get()        
         linphone_logging_service_set_log_level(linphoneLoggingService, LinphoneLogLevelFatal)
         
         let configFileName = documentFile("linphonerc")
