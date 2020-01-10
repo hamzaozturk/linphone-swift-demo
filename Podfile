@@ -9,6 +9,6 @@ target 'linphone-swift-demo' do
   use_frameworks!
 
   # Pods for linphone-swift-demo
-  pod 'linphone-sdk', '> 4.4.0-alpha' 
+  pod 'linphone-sdk', '4.3' 
 
 end
